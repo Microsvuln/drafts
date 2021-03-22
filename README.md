@@ -11,3 +11,7 @@ handy things and drafts for myself
 
 # FFMPEG custom build
 `./configure --disable-shared --disable-inline-asm --cc=/home/arash/AFLplusplus-3.11c/afl-clang-fast --cxx=/home/arash/AFLplusplus-3.11c/afl-clang-fast++`
+
+
+# Token search
+`grep -rnw arrays-str/ -e TOKEN`
