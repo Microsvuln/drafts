@@ -7,3 +7,7 @@ handy things and drafts for myself
 
 # GCC Coverage report compilation flags
 `CFLAGS="-fprofile-arcs -ftest-coverage" CXXFLAGS="-fprofile-arcs -ftest-coverage"`
+
+
+# FFMPEG custom build
+`./configure --disable-shared --disable-inline-asm --cc=/home/arash/AFLplusplus-3.11c/afl-clang-fast --cxx=/home/arash/AFLplusplus-3.11c/afl-clang-fast++`
